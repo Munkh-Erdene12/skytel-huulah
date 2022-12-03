@@ -733,6 +733,11 @@ footer .footer-menu .menu-1 ul li a i {
   main .main-content .row .col {
     width: 50%;
   }
+  main .main-content .row .col a span {
+    display: flex;
+    width: 100%;
+    text-align: center;
+  }
   main .main-new-content .new-item-block {
     width: 100%;
   }
