@@ -1,0 +1,128 @@
+@media (max-width: 1525px) {
+  .container-mod {
+    max-width: 90% !important;
+  }
+}
+@media (max-width: 1400px) {
+  .sticky-header .sticky .menu-text ul li {
+    font-size: 13px;
+  }
+}
+@media (max-width: 1200px) {
+  .sticky-header .sticky .menu-text ul li {
+    font-size: 12px;
+  }
+}
+@media (max-width: 1076px) {
+  .hidden-header-background {
+    display: none;
+  }
+  .sticky-header {
+    display: none;
+  }
+  .mobile-header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 1px 5px rgb(0 0 0 / 8%);
+  }
+  .mobile-header .nav-bar-menu {
+    width: 100px;
+    height: 100%;
+  }
+  .mobile-header .nav-bar-menu,
+  .mobile-header .search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0000b4;
+    font-size: 2em;
+  }
+  .mobile-header .logo {
+    width: 500px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: #000; */
+  }
+  .mobile-header .logo img {
+    width: 32%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .mobile-header .search {
+    width: 100px;
+    height: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .mobile-header .logo img {
+    width: 40%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .header-large-hero .btn {
+    display: none;
+  }
+}
+@media (max-width: 1071px) {
+  main .main-new-content .new-item-block {
+    width: 22.7%;
+  }
+  main .footer-content-item .active-content .active-header h2 {
+    justify-content: left;
+  }
+  main
+    .footer-content-item
+    .active-content
+    .active-header
+    h2
+    span.more-title-1 {
+    letter-spacing: -2px;
+    font-size: 25px !important;
+  }
+  footer .footer-menu .menu-1 ul li a {
+    font-size: 14px;
+  }
+}
+@media (max-width: 1024px) {
+  .header-large-hero .more-btn {
+    display: none;
+  }
+  main .main-content .row .col {
+    width: 33%;
+  }
+}
+@media (max-width: 968px) {
+  main .main-new-content .new-item-block {
+    width: 48.1%;
+  }
+  main .footer-content-item .content-footer {
+    width: 100%;
+  }
+  main .footer-content-item .active-content .active-header h2 {
+    justify-content: left;
+  }
+  footer .footer-menu {
+    flex-direction: column !important;
+  }
+  footer .footer-menu .menu-1 {
+    width: 100%;
+  }
+  .copyright .copyright-child .text {
+    display: none;
+  }
+}
+@media (max-width: 720px) {
+  main .main-content .row .col {
+    width: 50%;
+  }
+  main .main-new-content .new-item-block {
+    width: 100%;
+  }
+  main .title .right ul {
+    display: none !important;
+  }
+}
