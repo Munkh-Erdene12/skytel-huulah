@@ -370,7 +370,7 @@ main .main-new-content .new-item-block:hover .block-img .linner {
 main .main-new-content .new-item-block .block-img .linner {
   width: 100%;
   height: 70%;
-  /* visibility: hidden; */
+  visibility: hidden;
   background: #0000b4;
   position: absolute;
   bottom: 0;
